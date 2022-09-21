@@ -107,10 +107,16 @@ nav h2 {
   margin-top: 6rem;
   margin-bottom: 0.5rem;
 }
+span {
+  color: var(--hover-color);
+}
 .hero-title a {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   cursor: pointer;
+}
+.hero-title a {
+  color: var(--hover-color);
 }
 .social-links {
   margin-top: 0.8rem;

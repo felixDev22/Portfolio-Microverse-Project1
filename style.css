@@ -23,3 +23,6 @@ text-area {
   --content-color: #344563;
   --links-color: #505f79;
 }
+.container {
+  display: flex;
+}

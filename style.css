@@ -11,7 +11,6 @@
 }
 
 body,
-input,
 button {
   font-family: poppins;
 }
@@ -23,21 +22,29 @@ button {
   --light-blue: #cbcdff;
   --title-color: #172b4d;
   --content-color: #344563;
+  --hover-color: #2230d2;
   --links-color: #505f79;
 }
 body {
   min-height: 100vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
   background: var(--body-color);
 }
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 52px;
   font-weight: 700;
   color: var(--title-color);
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+  font-style: normal;
+  color: var(--content-color);
+  margin-bottom: 0.7rem;
 }
 
 .container {
@@ -68,8 +75,48 @@ nav h2 {
   letter-spacing: 0.2rem;
   font-size: 1.1;
 }
+#logo {
+  cursor: pointer;
+}
+#logo:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+}
 .menu-bar {
   width: 1.5rem;
+  cursor: pointer;
 }
 
 /* navigation ends */
+
+/* hero-section */
+
+.hero-section {
+  display: flex;
+}
+.header-shapes {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.hero-title h1 {
+  margin-top: 6rem;
+  margin-bottom: 0.5rem;
+}
+.hero-title a {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.social-links {
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+.social-links img {
+  margin-right: 1rem;
+}
+/* hero-section ends */

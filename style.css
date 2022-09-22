@@ -25,8 +25,8 @@ button {
   --content-color: #344563;
   --hover-color: #2230d2;
   --links-color: #505f79;
-  --a-link-color: #EBEBFF
-  --work-section-color: #f7f7f9;
+  --a-link-color: #7f8cff;
+  --porfolio-bkg-color: #f7f7f9;
   --bullet-color: #c1c7d0;
   --work-title: #172b4d;
   --year-color: #7a869a;
@@ -37,7 +37,7 @@ body {
   width: 375px;
   align-items: center;
   justify-content: center;
-  background:var(--body-color);
+  background: var(--body-color);
 }
 
 h1 {
@@ -79,16 +79,14 @@ span {
 
 .container {
   width: 375px;
-  height:552px;
+  height: 552px;
   padding: 1rem 1.5rem;
- 
 }
-#homepage{
+#homepage {
   width: 375px;
-  height:718px;
+  height: 718px;
   background-image: url(./images/header-background-mobile.png);
   background-repeat: no-repeat;
-  /* z-index: -1; */
 }
 
 .app-bar {
@@ -133,11 +131,10 @@ nav h2 {
 /* hero-section */
 
 .hero-section {
-position: relative;
-display: flex;
-align-items: center;
-justify-content:center;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-shapes {
@@ -148,16 +145,14 @@ justify-content:center;
   margin-top: 6rem;
   right: 0;
   left: 0;
-  
 }
-
 
 .hero-title h1 {
   margin-top: 6rem;
   margin-bottom: 0.5rem;
 }
 
-.connect{
+.hero-title a {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color: var(--a-link-color);
@@ -181,16 +176,16 @@ justify-content:center;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  
- 
 }
 
 #portfolio-section {
   display: flex;
   justify-content: center;
   padding-top: 7.2rem;
-  background: var(--work-section-color);
-
+  background: var(--porfolio-bkg-color);
+  margin-top: -7rem;
+  position: relative;
+  z-index: -1;
 }
 
 .card {
@@ -199,7 +194,7 @@ justify-content:center;
   background: var(--card-bkg-color);
   border-radius: 1rem;
   padding: 1rem;
-  margin-bottom: 5.5rem;
+  margin-top: 5.5rem;
 }
 .work-details {
   display: flex;
@@ -210,8 +205,9 @@ justify-content:center;
 .work-title {
   color: var(--work-title);
 }
-  .card p{
-    font-size: 0.9rem;
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 .tools-btn {
   padding: 4px 12px;
@@ -220,13 +216,12 @@ justify-content:center;
   margin-right: 5px;
   color: var(--dark-blue);
   margin-top: 0.4rem;
- 
 }
-.Primary-Btn{
+.Primary-Btn {
   padding: 10px 20px;
   color: var(--dark-blue);
   border: 1px solid var(--dark-blue);
-  border-radius:8px;
+  border-radius: 8px;
   background: var(--card-bkg-color);
-   margin-top: 1rem;
+  margin-top: 1rem;
 }

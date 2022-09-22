@@ -40,3 +40,7 @@ Give a ⭐️ ⭐️ if you like this project!.
 ## Acknowledgments
 
 - Inspired by Microverse in the spirit of empowering developers with knowledge.
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.

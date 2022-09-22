@@ -24,13 +24,14 @@ button {
   --content-color: #344563;
   --hover-color: #2230d2;
   --links-color: #505f79;
+  --a-link-color: #7f8cff;
 }
 
 body {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background: var(--body-color);
 }
 
@@ -51,8 +52,8 @@ p {
 }
 
 .container {
-  height: 718px;
   width: 375px;
+  height: 718px;
   padding: 1rem 1.5rem;
   background-image: url(./images/header-background-mobile.png);
 }
@@ -103,13 +104,13 @@ nav h2 {
 }
 
 .header-shapes {
+  display: flex;
   position: absolute;
   z-index: 1;
-  display: flex;
-  left: 0;
-  right: 0;
   justify-content: center;
   align-items: center;
+  right: 0;
+  left: 0;
 }
 
 .hero-title h1 {
@@ -117,22 +118,21 @@ nav h2 {
   margin-bottom: 0.5rem;
 }
 
-span {
-  color: var(--hover-color);
-}
-
 .hero-title a {
   font-size: 1rem;
   letter-spacing: 0.1rem;
+  color: var(--a-link-color);
   cursor: pointer;
 }
 
 .social-links {
+  display: flex;
   margin-top: 0.8rem;
+  align-items: center;
   cursor: pointer;
 }
 
-.social-links img {
+.social-links svg {
   margin-right: 1rem;
 }
 

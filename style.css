@@ -30,6 +30,7 @@ button {
   --bullet-color: #c1c7d0;
   --work-title: #172b4d;
   --year-color: #7a869a;
+  --border-color: #dfe1e6;
 }
 
 body {
@@ -69,7 +70,7 @@ p {
   color: var(--content-color);
   margin-bottom: 0.7rem;
 }
-span {
+.bullet-point {
   background: var(--bullet-color);
   width: 8px;
   height: 8px;
@@ -170,7 +171,8 @@ nav h2 {
   margin-right: 1rem;
 }
 /* hero-section ends */
-/* work section starts*/
+
+/* portfolio section starts*/
 
 .grid-container {
   display: grid;
@@ -195,6 +197,7 @@ nav h2 {
   border-radius: 1rem;
   padding: 1rem;
   margin-top: 5.5rem;
+  border: 1px solid var(--border-color);
 }
 .work-details {
   display: flex;
@@ -225,3 +228,72 @@ nav h2 {
   background: var(--card-bkg-color);
   margin-top: 1rem;
 }
+
+/* portfolio section ends*/
+
+/* About section starts*/
+#About {
+  display: flex;
+  flex-direction: column;
+  background: var(--porfolio-bkg-color);
+}
+.about-base {
+  margin-top: 7rem;
+}
+.About-Details {
+  position: absolute;
+  margin-top: 14rem;
+}
+.About-title h1 {
+  margin-bottom: 0.5rem;
+}
+.languages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.languages img {
+  width: 25px;
+}
+.languages h4 {
+  font-size: 1.25rem;
+}
+.languages-box {
+  display: flex;
+  align-items: center;
+  background: var(--porfolio-bkg-color);
+  width: 303px;
+  height: 66.72px;
+  margin-bottom: 0.75rem;
+}
+.languages-box a {
+  display: flex;
+  align-items: center;
+}
+.languages-box img {
+  margin-left: 0.7rem;
+}
+span {
+  margin-left: 1rem;
+}
+.line {
+  height: 1px;
+  width: 327px;
+  background: var(--border-color);
+  margin-top: 1rem;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.skill img {
+  width: 8%;
+  height: 8%;
+}
+.skill h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+/* About section ends*/

@@ -72,13 +72,6 @@ p {
   color: var(--content-color);
   margin-bottom: 0.7rem;
 }
-
-.primary-Btn:hover {
-  background: var(--dark-blue);
-  color: var(--card-bkg-color);
-  box-shadow: 4px 4px 7px #7f8aed;
-}
-
 .bullet-point {
   background: var(--bullet-color);
   width: 8px;
@@ -236,7 +229,7 @@ nav h2 {
   margin-top: 0.4rem;
 }
 
-.Primary-Btn {
+.primary-btn {
   padding: 10px 20px;
   color: var(--dark-blue);
   border: 1px solid var(--dark-blue);
@@ -244,6 +237,12 @@ nav h2 {
   background: var(--card-bkg-color);
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: var(--dark-blue);
+  color: var(--card-bkg-color);
+  box-shadow: 4px 4px 7px #7f8aed;
 }
 
 /* portfolio section ends */

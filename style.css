@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@
 
 body,
 button {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -34,7 +34,6 @@ button {
 }
 
 body {
-  min-height: 100vh;
   width: 375px;
   align-items: center;
   justify-content: center;
@@ -47,16 +46,19 @@ h1 {
   font-weight: 700;
   color: var(--title-color);
 }
+
 h2 {
   font-size: 1.9rem;
   font-style: bold;
   line-height: 2rem;
 }
+
 h3 {
   font-size: 0.8rem;
   font-weight: normal;
   color: var(--year-color);
 }
+
 h4 {
   font-size: 0.8rem;
   font-weight: 500;
@@ -70,6 +72,13 @@ p {
   color: var(--content-color);
   margin-bottom: 0.7rem;
 }
+
+.primary-Btn:hover {
+  background: var(--dark-blue);
+  color: var(--card-bkg-color);
+  box-shadow: 4px 4px 7px #7f8aed;
+}
+
 .bullet-point {
   background: var(--bullet-color);
   width: 8px;
@@ -83,6 +92,7 @@ p {
   height: 552px;
   padding: 1rem 1.5rem;
 }
+
 #homepage {
   width: 375px;
   height: 718px;
@@ -153,7 +163,7 @@ nav h2 {
   margin-bottom: 0.5rem;
 }
 
-.hero-title a {
+.connect {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color: var(--a-link-color);
@@ -167,12 +177,13 @@ nav h2 {
   cursor: pointer;
 }
 
-.social-links svg {
+.social-links img {
   margin-right: 1rem;
 }
+
 /* hero-section ends */
 
-/* portfolio section starts*/
+/* portfolio section starts */
 
 .grid-container {
   display: grid;
@@ -199,19 +210,23 @@ nav h2 {
   margin-top: 5.5rem;
   border: 1px solid var(--border-color);
 }
+
 .work-details {
   display: flex;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .work-title {
   color: var(--work-title);
 }
+
 .card p {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
+
 .tools-btn {
   padding: 4px 12px;
   background: var(--light-blue);
@@ -220,6 +235,7 @@ nav h2 {
   color: var(--dark-blue);
   margin-top: 0.4rem;
 }
+
 .Primary-Btn {
   padding: 10px 20px;
   color: var(--dark-blue);
@@ -227,38 +243,46 @@ nav h2 {
   border-radius: 8px;
   background: var(--card-bkg-color);
   margin-top: 1rem;
+  cursor: pointer;
 }
 
-/* portfolio section ends*/
+/* portfolio section ends */
 
-/* About section starts*/
+/* About section starts */
 #About {
   display: flex;
   flex-direction: column;
   background: var(--porfolio-bkg-color);
 }
+
 .about-base {
   margin-top: 7rem;
 }
+
 .About-Details {
   position: absolute;
   margin-top: 14rem;
 }
+
 .About-title h1 {
   margin-bottom: 0.5rem;
 }
+
 .languages {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
-.languages img {
-  width: 25px;
+
+.languages svg {
+  width: 30px;
 }
+
 .languages h4 {
   font-size: 1.25rem;
 }
+
 .languages-box {
   display: flex;
   align-items: center;
@@ -267,33 +291,41 @@ nav h2 {
   height: 66.72px;
   margin-bottom: 0.75rem;
 }
+
 .languages-box a {
   display: flex;
   align-items: center;
 }
+
 .languages-box img {
   margin-left: 0.7rem;
 }
+
 span {
   margin-left: 1rem;
 }
+
 .line {
   height: 1px;
   width: 327px;
   background: var(--border-color);
   margin-top: 1rem;
 }
+
 .skill {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 }
-.skill img {
+
+.skill svg {
   width: 8%;
   height: 8%;
 }
+
 .skill h4 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
-/* About section ends*/
+
+/* About section ends */

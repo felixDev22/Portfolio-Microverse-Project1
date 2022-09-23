@@ -72,6 +72,7 @@ p {
   color: var(--content-color);
   margin-bottom: 0.7rem;
 }
+
 .bullet-point {
   background: var(--bullet-color);
   width: 8px;

@@ -344,3 +344,21 @@ span {
   position: relative;
   z-index: 20;
 }
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-text h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.contact-text p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}

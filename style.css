@@ -333,3 +333,14 @@ span {
 }
 
 /* About section ends */
+
+/* Contact section Start */
+#contact-area {
+  background-image: url(./images/Contact\ me.png);
+  height: 779px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin-top: -7rem;
+  position: relative;
+  z-index: 20;
+}

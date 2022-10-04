@@ -336,11 +336,63 @@ span {
 
 /* Contact section Start */
 #contact-area {
-  background-image: url(./images/Frame.svg);
+  background-image: url(./images/Frame.png);
   height: 779px;
   background-repeat: no-repeat;
   background-position: cover;
   margin-top: -7rem;
   position: relative;
   z-index: 20;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-text h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.contact-text p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.contact-form {
+  display: flex;
+}
+
+.form,
+.input,
+.message {
+  width: 100%;
+  font-size: 0.7rem;
+}
+.input,
+.message {
+  border-radius: 0.4rem;
+  margin-top: 20px;
+  border: 1px solid #cfd8dc;
+  font-family: Poppins;
+}
+.input {
+  padding: 0.75rem;
+}
+#abt-btn {
+  display: flex;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.back-home img {
+  margin-top: 4rem;
+}
+
+#abt-btn:hover {
+  background: var(--hover-color);
+  color: var(--card-bkg-color);
 }

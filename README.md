@@ -22,10 +22,11 @@ You will need to clone the url from the source repository and run the following 
 
 ## Authors
 
-👤 **Author1**
+👤 **Collaborator**
 
 - GitHub: [@githubhandle](felixDev22)
-- twitter: [@twitter](@monzo200)
+- GitHub: [@githubhandle](SaneMyburg)
+- GitHub: [@githubhandle](PeteUgwu)
 
 ## 🤝 Contributing
 

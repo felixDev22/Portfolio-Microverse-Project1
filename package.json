@@ -1,6 +1,24 @@
 {
+  "name": "portfolio-microverse-wk2",
+  "version": "1.0.0",
+  "description": "> This a \"mobile-first\" approach. That aims at enriching software developers with the ability to develop and set-up mobile version first as opposed to desktop version. In other words \"prioritizing and perfecting the mobile user experience. This has been inspired by the growing number of mobile traffic. In addition, the developer is able to interprate design from Figma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixDev22/Portfolio-Microverse-Project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixDev22/Portfolio-Microverse-Project1/issues"
+  },
+  "homepage": "https://github.com/felixDev22/Portfolio-Microverse-Project1#readme",
   "devDependencies": {
-    "hint": "^7.1.2",
+    "hint": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
